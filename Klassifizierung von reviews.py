@@ -8,8 +8,8 @@ import pandas as pd
 #import openai
 #import matplotlib.pyplot as plt
 
-
-df = pd.read_csv(r'C:\Users\Berni\PycharmProjects\Erstes Projekt\KI-Projekt\reviews_german_realistic_utf8.csv')
+url = "https://raw.githubusercontent.com/BMederer/KI-Projekt/refs/heads/main/reviews_german_realistic_utf8.csv"
+df = pd.read_csv(url)
 
 # Überblick über die Daten
 print(df.head())
